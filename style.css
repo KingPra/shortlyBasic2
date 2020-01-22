@@ -22,6 +22,7 @@ body {
 
 .menu--mobile {
   position: relative;
+  color: var(--gray);
   right: 0;
   left: 60%;
   top: 10px;
@@ -31,7 +32,7 @@ body {
 .container--main {
   overflow: hidden;
   text-align: center;
-  margin: 0 20px;
+  margin-left: 20px;
 }
 
 .working {
@@ -43,11 +44,12 @@ body {
   margin-bottom: 0;
   font-size: 40px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .description--main {
-  margin-top: 20px;
-  font-size: 22px;
+  margin: 30px 30px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--gray);
 }
@@ -113,7 +115,7 @@ body {
   position: relative;
   padding: 100px 0 10px 0;
   top: -150px;
-  z-index: 0;
+  font-size: 18px;
   text-align: center;
   z-index: 0;
 }
@@ -200,10 +202,11 @@ body {
 
 footer {
   background: var(--very-dark-violet);
-  position: relative;
-  top: -210px;
+  position: absolute;
+  top: 2600px;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
 ul {
@@ -227,4 +230,15 @@ ul {
   padding: 5px;
   font-size: 14px;
   color: var(--gray);
+}
+
+.brands {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.links--brands {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
 }
