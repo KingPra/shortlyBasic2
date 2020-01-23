@@ -242,3 +242,56 @@ ul {
   list-style: none;
   margin: 10px;
 }
+
+.drop-down {
+  width: 90%;
+  background: var(--dark-violet);
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  width: 90%;
+  background: var(--dark-violet);
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
+
+.list--drop-down {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 3;
+}
+
+.line--drop-down {
+  background: var(--grayish-violet);
+  opacity: 0.5;
+  margin: 10px 0;
+  width: 80%;
+  height: 0.5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-drop-down {
+  margin: 20px 0;
+  width: 250px;
+  height: 50px;
+  background: var(--cyan);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50px;
+  border-style: none;
+}
